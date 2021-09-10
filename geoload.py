@@ -65,7 +65,6 @@ for line in fh:
             VALUES ( ?, ? )''', (memoryview(address.encode()), memoryview(data.encode()) ) )
     conn.commit()
     if count % 10 == 0 :
-        print('Pausing for a bit...')
         time.sleep(5)
 
 # run geodump.py
