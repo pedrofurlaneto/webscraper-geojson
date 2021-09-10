@@ -1,6 +1,6 @@
 # webscrapper_geojson
 
--- passo a passo
+ordem de execução
 
 1. geoload.py
 2. geodump.py
